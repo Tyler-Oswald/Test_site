@@ -1,0 +1,19 @@
+title: DeepPicar
+description: A Deep Learning based Autonomous car project
+
+theme: just-the-docs
+
+url: https://just-the-docs.github.io
+
+search_enabled: false
+
+include:
+  - assets
+
+
+
+just_the_docs:
+  nav_sort: true
+  custom_css:
+    - _sass/custom/custom.scss
+
