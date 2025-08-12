@@ -49,3 +49,27 @@ html, body {
 
 
 
+@media (max-width: 767px) {
+  .side-bar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    margin-left: 0;
+    width: 100vw;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .main-content-wrapper {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .side-bar .nav-list-link {
+    padding-left: 1.5rem !important;
+  }
+}
